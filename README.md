@@ -16,7 +16,7 @@
     3）自带测试工具。
 
     4） 配置文件支持在线改。包括数据库的配置可以在tomcat 启动之后再改。基本上是0 配置。所有的配置信息保存在database.db 里。
-     只要配置一个api.database.path  database.db 的路径和debugger 是否为调试模式
+     只要配置一个api.database.path 是 database.db 的路径和debugger 是否为调试模式
 
     5）大部分的增删改查都是页面上直接配置，不需要任何开发。以后界面基本也能配置出来像金蝶一样，保存为数据库记录动态加载
 
