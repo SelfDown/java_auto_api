@@ -61,7 +61,7 @@
      
      2）admin和e10adc3949ba59abbe56e057f20f883e 文本框是之前项目登录接口。基本不用
      
-     3）insight/service/result 后面的文件框是接口测试框。请求json 数据放在这个里面。请求地址是insight/service/result，以ajax json方式提交
+     3）insight/service/result 后面的文件框是接口测试框。请求json 数据放在这个里面。请求地址是insight/service/result，点击提交按钮，以ajax json方式提交
      
      4）点击新增或者修改，右侧显示模块配置参数信息
      
