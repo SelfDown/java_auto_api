@@ -55,7 +55,23 @@
      
      8）database_connection_config 数据库连接配置。配置数据库host、用户名、密码、数据库、初始连接数量等等。这里使用druid 连接池，填写druid属性可以生效。注意这里service_read_source 和service_write_source 不能删除。项目启动的时候会默认连接它们
      
+然后对界面大致介绍一下
      
+     1）顶部的大文本框是控制台，显示接口调用信息，传递的参数信息
+     
+     2）admin和e10adc3949ba59abbe56e057f20f883e 文本框是之前项目登录接口。基本不用
+     
+     3）insight/service/result 后面的文件框是接口测试框。请求json 数据放在这个里面。请求地址是insight/service/result，以ajax json方式提交
+     
+     4）点击新增或者修改，右侧显示模块配置参数信息
+     
+     5）查看json 按钮，可以查看请求的必传参数
+     
+     6）查看文档，以页面的显示描述接口的信息，包含了一个js 调用示例。可以将此页面右键打印pdf,存档、或者给第三方接口人员使用
+     
+     7）参数是发了一个 insight/service/result 请求。和填写json再点击提交效果一直。如果想更改参数提交。查看json ，修改字段后。复制到接口测试框中，点击提交
+
+ 
 将sql 转化为http api 工具
 
 java maven 项目。基于spring boot .在界面上填写sql 查询语句，直接转化为 http api。能够处理简单增删改查
