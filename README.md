@@ -74,6 +74,4 @@
      8）测试按钮 是发了一个 insight/service/result 请求。和填写json再点击提交效果一致。如果想更改参数提交。查看json ，修改字段后。复制到接口测试框中，点击提交
 
  
-将sql 转化为http api 工具
-
-java maven 项目。基于spring boot .在界面上填写sql 查询语句，直接转化为 http api。能够处理简单增删改查
+项目配置文档，请查看 https://github.com/SelfDown/java_auto_api/wiki
