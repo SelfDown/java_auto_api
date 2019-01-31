@@ -53,7 +53,7 @@
      
      7）file_upload_save 文件上传模块。可以配置文件保存路径，生成文件夹规则，比如一个文件夹不能超过1000个文件。注意如果自定义模块。这里预留service_file 开头是文件操作。其他的service 不能使用
      
-     8）database_connection_config 数据库连接配置。配置数据库host、用户名、密码、数据库、初始连接数量等等。这里使用druid 连接池。注意这里service_read_source 和service_write_source 不能删除。项目启动的时候会默认连接它们
+     8）database_connection_config 数据库连接配置。配置数据库host、用户名、密码、数据库、初始连接数量等等。这里使用druid 连接池，填写druid属性可以生效。注意这里service_read_source 和service_write_source 不能删除。项目启动的时候会默认连接它们
      
      
 将sql 转化为http api 工具
