@@ -33,7 +33,7 @@
      
      5）maven 下载所需包后，点击Appliction.java 右键 Run 'Appliction.main()' 运行成功
      
-     6) 浏览器访问http://localhost:8080/insight-api.html 控制台 
+     6) 浏览器访问 http://localhost:8080/insight-api.html 控制台 
      
 
 
