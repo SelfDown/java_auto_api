@@ -21,6 +21,21 @@
     5）大部分的增删改查都是页面上直接配置，不需要任何开发。以后界面基本也能配置出来像金蝶一样，保存为数据库记录动态加载
 
 
+项目集成。maven 方式建立项目。我用的是idea
+
+     1）File>New>Project from Existing sources...
+     
+     2)选中解压后的sqlapi>Import project from external model>Maven
+     
+     3) 默认3步。然后选中jdk 1.8。最后到默认直到finish
+     
+     4）找到application.properties 。配置api.database.path 为database.db 实际路径
+     
+     5）maven 下载所需包后，点击Appliction.java 右键 Run 'Appliction.main()' 运行成功
+     
+     6) 浏览器访问http://localhost:8080/insight-api.html 控制台 
+     
+
 
 将sql 转化为http api 工具
 
